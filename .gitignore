@@ -1,0 +1,41 @@
+# ── Python ─────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+*.so
+
+# ── Environment ────────────────────────────────────────────────────
+.env
+!.env.example
+
+# ── App Data ───────────────────────────────────────────────────────
+.cinematic-mood-weaver/
+
+# ── Node / Frontend ────────────────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/src-tauri/target/
+
+# ── IDE / Editor ───────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Logs ───────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Testing / Coverage ────────────────────────────────────────────
+.coverage/
+htmlcov/
+.pytest_cache/
